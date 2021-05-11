@@ -2,7 +2,7 @@
   <div>
     <div>
       <h1>Todos</h1>
-      <div class="todosList">
+      <div>
         <div
           v-for="todo in allTodos"
           class="todo"
@@ -28,5 +28,11 @@ export default {
 </script>
 
 <style scoped>
-
+.todo{
+  margin : auto;
+  width : 60%;
+  border : 1px solid #73ad21;
+  padding: 10px;
+ 
+}
 </style>
